@@ -20,7 +20,7 @@ module.exports = function(defaults) {
               ]
             }
           },
-          require('tailwindcss')('./config/tailwind.config.js') // empty config
+          require('tailwindcss')('./config/tailwind.config.js')
         ]
       }
     },

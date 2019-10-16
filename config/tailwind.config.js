@@ -10,7 +10,11 @@ module.exports = {
       'grey-light': '#fdf7f6',
       'grey-dark': '#434343',
       'black': '#212121',
-    }
+    },
+    borderColor: theme => ({
+      default: theme('colors.grey-light'),
+      ...theme('colors'),
+    }),
   },
   variants: {},
   plugins: []
