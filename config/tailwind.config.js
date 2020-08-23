@@ -14,11 +14,15 @@ module.exports = {
       'brown': 'rgba(27, 27, 27, 0.78)',
       'amber': '#df5e49',
       'amber-light': '#ffbaae',
-      'amber-medium': '#E39774'
+      'amber-medium': '#E39774',
+      'dark-teal': '#326273'
     },
     extend: {
       zIndex: {
         'negative': -1,
+      },
+      borderRadius: {
+        xl: '1em'
       }
     },
     borderColor: theme => ({
