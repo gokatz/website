@@ -1,76 +1,68 @@
 export default [
   {
-    startTime: "09:15 am",
-    endTime: "09:45 am",
-    name: "Check-in",
-    topicDesc: "Check-in yourself at the desk outside Freshworks third floor cafeteria."
+    type: 'talk',
+    speaker: 'Rajasegar Chandiran',
+    handle: '@rajasegar_c',
+    profileLink: 'https://twitter.com/rajasegar_c',
+    profilePic: 'meetup-4-sept-2020/rajasegar.jpg',
+    startTime: "- am",
+    endTime: "- am",
+    title: "Building Bridges to the DOM with Modifiers"
   },
   {
-    startTime: "10:00 am",
-    endTime: "10:30 am",
-    name: "Web development - The Past and the Present",
-    speaker: "Namburu Venkata Jaya Krishna",
-    speakerPic: "",
-    topicDesc: ""
+    type: 'talk',
+    speaker: 'Kanalveli RA',
+    handle: '@kaelinralav',
+    profileLink: 'https://twitter.com/kaelinralav',
+    profilePic: 'meetup-4-sept-2020/kanal.jpeg',
+    startTime: "- am",
+    endTime: "- am",
+    title: "Sequential rendering with EmberJS"
   },
   {
-    startTime: "10:30 am",
-    endTime: "10:40 am",
-    name: "Picking a framework: React vs Angular vs Vue vs Ember",
-    speaker: "Michael Dinesh",
-    speakerPic: "",
-    topicDesc: ""
+    type: 'talk',
+    speaker: 'Bhuvaneshwari K',
+    handle: '',
+    profileLink: '',
+    profilePic: 'meetup-4-sept-2020/bk.png',
+    startTime: "- am",
+    endTime: "- am",
+    title: "Contextual Component Design"
   },
   {
-    startTime: "10:40 am",
-    endTime: "10:50 am",
-    name: "Ember runloop",
-    speaker: "Raja S",
-    speakerPic: "",
-    topicDesc: ""
+    type: 'break',
+    startTime: "- am",
+    endTime: "- pm",
+    title: "Break"
   },
   {
-    startTime: "10:50 am",
-    endTime: "11:00 pm",
-    name: "Break",
-    isBreak: true
+    type: 'talk',
+    speaker: 'Gopi Srinivasan',
+    handle: '@igopisrinivasan',
+    profileLink: 'https://www.linkedin.com/in/igopisrinivasan/',
+    profilePic: 'meetup-4-sept-2020/gopi.jpg',
+    startTime: "- am",
+    endTime: "- am",
+    title: "ProtractorJS, Puppeteer, NightWatchJS and Cypress"
   },
   {
-    startTime: "11:00 am",
-    endTime: "11:25 am",
-    name: "Ember Model & Relationships",
-    speaker: "Ahamed Althaf",
-    speakerPic: "",
-    topicDesc: ""
+    type: 'talk',
+    speaker: 'Saravana Kumar V',
+    handle: '',
+    profileLink: '',
+    profilePic: 'meetup-4-sept-2020/sk.jpg',
+    startTime: "- am",
+    endTime: "- am",
+    title: "Degrading Ember Apps gracefully when offline"
   },
   {
-    startTime: "11:25 am",
-    endTime: "11:50 am",
-    name: "Frame communication with ember",
-    speaker: "Kishore Kumar",
-    speakerPic: "",
-    topicDesc: ""
+    type: 'talk',
+    speaker: 'Monisha',
+    handle: '',
+    profileLink: '',
+    profilePic: 'meetup-4-sept-2020/monisha.png',
+    startTime: "- am",
+    endTime: "- am",
+    title: "Progressive Web App using Ember"
   },
-  {
-    startTime: "11:50 am",
-    endTime: "12:00 pm",
-    name: "Break",
-    isBreak: true
-  },
-  {
-    startTime: "12:00 pm",
-    endTime: "12:30 pm",
-    name: "Design Systems using Storybook",
-    speaker: "Prasanth Lalapeta",
-    speakerPic: "",
-    topicDesc: ""
-  },
-  {
-    startTime: "12:30 pm",
-    endTime: "01:00 pm",
-    name: "Finite State Machines and Ember",
-    speaker: "Sankar Ganesh",
-    speakerPic: "",
-    topicDesc: ""
-  }
-]
+];

@@ -63,9 +63,13 @@
 <div class="container mx-auto flex flex-col items-center p-10 bg-white">
   <h3 class="mb-10 mt-5">Featuring Talks By</h3>
 
-  <div class="flex-full-center flex-wrap">
-    {{#each this.speakers as |speaker|}}
-      <Speaker @speaker={{speaker}} />
+  <div class="flex flex-wrap justify-center items-start">
+    {{#each this.schedule as |speaker|}}
+
+      {{#if (equal speaker.type "talk")}}
+        <Speaker @speaker={{speaker}} />
+      {{/if}}
+
     {{/each}}
   </div>
 
@@ -76,9 +80,14 @@
 <div class="flex flex-col talks-schedule">
 
   <div class="p-10">
-    <h3 class="text-center mb-12">Previous Schedule - November 2019</h3>
+    <h3 class="text-center mb-8">
+      <span class="relative">
+        Schedule
+        <img src="/assets/images/teaching-tomster.png" class="absolute tomster" alt="">
+      </span>
+    </h3>
 
-    <TalksSchedule @scheduleList={{this.previousTalksList}} />
+    <TalksSchedule />
 
 
     {{!-- <div class="mt-10 text-center">
