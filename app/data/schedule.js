@@ -14,7 +14,7 @@ export default [
     speaker: 'Kanalveli RA',
     handle: '@kaelinralav',
     profileLink: 'https://twitter.com/kaelinralav',
-    profilePic: 'meetup-4-sept-2020/kanal.jpeg',
+    profilePic: 'meetup-4-sept-2020/kanal.jpg',
     startTime: "- am",
     endTime: "- am",
     title: "Sequential rendering with EmberJS"
